@@ -54,7 +54,7 @@ def finger_face
 
   if my_direction == cpu_direction
     puts "あなたの#{$result}です"
-    janken()
+    exit
   else
     puts "じゃんけん..."
     janken()
